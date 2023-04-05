@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    id em HTML, # em CSS
+    class em HTML, . em CSS
+
+    só pode ter um id por documento HTML (único)
+    serve pra mais de um elemento na mesma classe (múltiplo)
+*/
+
+body{
+    background-color: rgb(159, 255, 159);
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgb(14, 65, 14);
+}
+/* h1#principal é id*/
+h1#principal{
+    background-color: rgb(14, 65, 14);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: 3c805;
+}
+
+/*.basico é minha class */
+.basico{
+    color: #3c805e;
+    font-weight: bold;
+}
+.intermediario{
+    color: #80793c;
+    font-weight: bold;
+}
+.avancado{
+    color: #803c3c;
+    font-weight: bold;
+}

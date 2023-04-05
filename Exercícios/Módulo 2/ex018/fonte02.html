@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+
+    <style>
+        @font-face {
+            font-family: 'Robot';
+            src: url('fontes/Robot Crush.ttf') format(truetype), url('fontes/Robot Crush.otf') format(opentype);
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format():
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'Robot', serif ;
+            font-size: 4em;
+            font-weight: normal;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>TITULO</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas impedit iste consequatur vitae delectus ad cumque doloribus architecto sint id, eum officia quo tenetur, eveniet velit cum sed accusantium quod.</p>
+    
+</body>
+</html>
